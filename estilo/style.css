@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+div{
+    overflow-x: auto;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 2.2em;
+    padding-bottom: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.green{
+    color: green;
+}
+
+th, .total{
+    background-color: rgba(128, 128, 128, 0.801);
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tfoot > tr > td{
+    text-align: center;
+}
